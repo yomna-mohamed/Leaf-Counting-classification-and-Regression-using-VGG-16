@@ -13,6 +13,6 @@ Dataset containing 9372 RGB images of weeds with the number of leaves counted. T
 
 VGG-16 remove the top layer and adding 3 fully connected layer the last layer contain the number of class =5 img_1.png
 
-## Regression Using VGG-16 but change the last layer to be 1
+ Regression Using VGG-16 but change the last layer to be 1
 
-## Improve the model to deal with dataset 1-Using Data Augmentation (in-place/on-the-fly data augmentation) that transform each image in the batch and that randomly transformed batch will use the randomly transformed data( augmentation) is done at training time 2- adding Batch Normalization and Dropout
+ Improve the model to deal with dataset 1-Using Data Augmentation (in-place/on-the-fly data augmentation) that transform each image in the batch and that randomly transformed batch will use the randomly transformed data( augmentation) is done at training time 2- adding Batch Normalization and Dropout
